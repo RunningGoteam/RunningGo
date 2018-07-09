@@ -17,6 +17,14 @@ Page({
     wx.setNavigationBarTitle({
       title: wx.getStorageSync('mallName')
     })
+    // wx.getWeRunData(
+    //   { success(res) 
+    //   { 
+    //     const encryptedData = res.encryptedData
+    //     console.log(encryptedData)
+    //   } 
+    //  }
+    //  )调取用户的步数
   },
   onShow:function(){
     let that = this

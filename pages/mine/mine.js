@@ -68,10 +68,21 @@ Page({
     clearTitle() {
         this.setData({diaryTitle: ""});
     },
-
     onShow: function() {
         this.hideModal();
         this.clearTitle();
+        let that = this
+        let userInfo = wx.getStorageSync('userInfo')
+       // let nickName = userInfo.nickName 获取微信的用户名
+        if (!userInfo) {
+          wx.navigateTo({
+            url: "/pages/authorize/index"
+          })
+        } else {
+          that.setData({
+            userInfo: userInfo
+          })
+        }
     },
 
     // 点击tab项事件
