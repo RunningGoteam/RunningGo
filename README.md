@@ -1,11 +1,7 @@
-# 微信小程序之小熊の日记 #
+# 微信小程序running go #
 
 ## 关于 ##
 
-* 我是一名后端程序员，做这个仅仅是因为觉得微信小程序好玩；
-* 没有明确的产品意图，东抄抄西抄抄只是为了验证和学习微信小程序；
-* 大体是想做一个个人/家庭日常记录的app;
-* 持续开发中，有兴趣请持续关注
 
 ## 预览 ##
 
@@ -31,8 +27,8 @@
 1. 克隆代码:
 
 ```bash
-$ cd path/to/your/workspace
-$ git clone https://github.com/harveyqing/BearDiary.git
+$ cd 文件夹路径
+$ git clone https://github.com/RunningGoteam/RunningGo.git
 ```
 
 2. 打开`微信Web开放者工具`（注意：须`v0.10.101100`及以上版本）
@@ -41,7 +37,7 @@ $ git clone https://github.com/harveyqing/BearDiary.git
 
     * AppID：选`无AppID`
     * 项目名称：任意填写
-    * 项目目录：path/to/your/workspace
+    * 项目目录：
     * 点击 `添加项目`
 
 ## 开发计划 ##
