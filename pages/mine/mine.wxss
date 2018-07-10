@@ -6,7 +6,7 @@
 }
 
 .header .profile {
-  height: 50%;
+  height: 100%;
 }
 .profile{
   display: flex;
@@ -21,6 +21,7 @@
 }
 .profile .nickName{
   font-size: 40rpx;
+  padding-bottom: 20rpx
 }
 .profile .description {
   display: inline-block;
@@ -40,7 +41,29 @@
     height: 35px;
     width: 35px;
 }
-
+.listTitle{
+  padding: 23rpx 0rpx;
+  border: 2rpx #B3B3B3 solid;
+  border-bottom:none; 
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+}
+.content{
+  border-bottom:  2rpx #B3B3B3 solid;
+  background: #fff;
+}
+.listIcon{
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+}
+.list{
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: #636363;
+}
 .header .tablist {
     height: 50%;
     display: flex;
@@ -71,13 +94,13 @@
     margin-top: 10px;
 }
 
-.modal {
+/* .modal {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    background: rgba(0, 0, 0, .5);
+    background:#fff;
     z-index: 99999;
     opacity: 0;
     transition: opacity 400ms ease-in;
@@ -85,8 +108,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+} */
+/* 
 .modal .dialog {
     width: 84%;
     height: 28%;
@@ -95,7 +118,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+} */
 
 .dialog .modal-item {
     height: 33.3%;

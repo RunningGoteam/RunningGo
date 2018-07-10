@@ -5,13 +5,11 @@
     "pages/mine/mine",
     "pages/new/new",
     "pages/entry/entry",
+    "pages/goods/goods",
     "pages/authorize/index"
   ],
   "window":{
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Running Go",
-    "navigationBarTextStyle": "black",
     "backgroundColor": "#eceff4"
   },
   "tabBar": {
@@ -22,20 +20,20 @@
     "list":[
       {
         "pagePath": "pages/list/list",
-        "iconPath": "images/icons/mark.png",
-        "selectedIconPath": "images/icons/markHL.png",
+        "iconPath": "images/icons/foot.png",
+        "selectedIconPath": "images/icons/foot_sel.png",
         "text": "印记"
       },
       {
-        "pagePath": "pages/mine/mine",
-        "iconPath": "images/icons/mine.png",
-        "selectedIconPath": "images/icons/mineHL.png",
+        "pagePath": "pages/goods/goods",
+        "iconPath": "images/icons/shop_o.png",
+        "selectedIconPath": "images/icons/shop.png",
         "text": "商品"
       },
       {
         "pagePath": "pages/mine/mine",
-        "iconPath": "images/icons/mine.png",
-        "selectedIconPath": "images/icons/mineHL.png",
+        "iconPath": "images/icons/mine_o.png",
+        "selectedIconPath": "images/icons/mine_sel.png",
         "text": "我的"
       }
     ]

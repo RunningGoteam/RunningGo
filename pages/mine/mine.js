@@ -2,6 +2,24 @@
 
 // 自定义标签
 var iconPath = "../../images/icons/"
+var iconType = [
+  {
+    "listTitle":"赞助记录",
+    "icon": iconPath + "history.png",
+  },
+   {
+     "listTitle": "兑换记录",
+     "icon": iconPath + "duihuan.png",
+  },
+   {
+     "listTitle": "规则说明",
+     "icon": iconPath + "guize.png",
+  },
+   {
+     "listTitle": "联系我们",
+     "icon": iconPath + "phone.png",
+   }
+]
 var tabs = [
     {
         "icon": iconPath + "mark.png",
@@ -41,7 +59,7 @@ Page({
     // data
     data: {
         // 展示的tab标签
-        tabs: tabs,
+        iconType: iconType,
 
         // 当前选中的标签
         currentTab: "tab1",

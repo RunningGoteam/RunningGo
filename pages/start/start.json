@@ -1,5 +1,7 @@
 {
-  "navigationBarTitleText": "Running Go",
   "enablePullDownRefresh": false,
-  "disableScroll": true
+  "disableScroll": true,
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "Running Go",
+  "navigationBarTextStyle": "black"
 }

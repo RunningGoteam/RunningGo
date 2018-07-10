@@ -1,6 +1,13 @@
 <!--list.wxml-->
 
 <scroll-view scroll-y="true">
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+  <block wx:for="{{movies}}" wx:for-index="index">
+      <swiper-item> 
+      <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>
+      </swiper-item>
+  </block> 
+</swiper>
   <view wx:for="{{diaries}}" wx:for-index="idx" class="item-container" bindtap="showDetail" id="{{idx}}">
     <image mode="aspectFit" src="{{item.meta.cover}}" class="cover"></image>
     <view class="desc">
